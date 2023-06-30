@@ -1,5 +1,8 @@
 # Cloudflare搭建DDNS(脚本版 此脚本可以在bsd运行)
+
 ​
+## 我也不知道这个脚本是谁原创的在freebsd情况下无法运行我就改了一下
+
 ## 自建DDNS解决动态IP服务器访问问题
 * 把域名接入cloudflare
 * 获取Global API Key
@@ -24,7 +27,7 @@ pkg install jq curl #Freebsd
 
 ## 下载 DNNS 脚本
 ```
-curl https://raw.githubusercontent.com/aipeach/cloudflare-api-v4-ddns/master/cf-v4-ddns.sh > /root/cf-v4-ddns.sh && chmod +x /root/cf-v4-ddns.sh
+curl https://raw.githubusercontent.com/kingchun/cf-v4-ddns-bsd/main/cf-v4-ddns.sh > /root/cf-v4-ddns.sh && chmod +x /root/cf-v4-ddns.sh
 ```
 ## 修改 DDNS 脚本并补充相关信息
 ```
