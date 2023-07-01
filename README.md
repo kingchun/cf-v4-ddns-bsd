@@ -1,7 +1,7 @@
 # Cloudflare搭建DDNS(脚本版 此脚本可以在bsd运行)
 
 ​
-## 我也不知道这个脚本是谁原创的在freebsd情况下无法运行我就改了一下
+## 我也不知道这个脚本是谁原创的在freebsd下无法运行我就改了一下 理论上linux也可以
 
 ## 自建DDNS解决动态IP服务器访问问题
 * 把域名接入cloudflare
@@ -22,7 +22,7 @@
 ```
 apt install jq curl -y #Debian/Ubuntu 
 yum install jq curl -y #Centos
-pkg install jq curl #Freebsd
+pkg install jq curl bash #Freebsd
 ```
 
 ## 下载 DNNS 脚本
